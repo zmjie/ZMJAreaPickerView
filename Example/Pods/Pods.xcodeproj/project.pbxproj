@@ -1,0 +1,1425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E9672361DD6E72A63B4ED0AE592D7F25 /* NSObject+MJClass.m */; };
+		01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F72DCFE8A313ED52B65E3747C231FB /* MJExtensionConst.m */; };
+		033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5009B9EE016213CC6BF4007153158438 /* MJFoundation.m */; };
+		05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F8B00CC5CD92FE992B871353A71625 /* MJExtension-dummy.m */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FC00B47F4926064A7DF20C52E4F260 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 681F484FD79B8DDE3198E097F17C008F /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677327BA7A403163EDF457F0F036B99 /* NSObject+MJProperty.m */; };
+		09598ACDD7591BB00A50E2BB6615A73B /* Pods-ZMJAreaPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02808FECBBBB98B04A8FD364A7AE01E3 /* Pods-ZMJAreaPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF99483524BCCC3562B96641588BE6 /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCC8D54B773732A96DA8DC70409A5DB /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E52D40EC739B9AE866B389259C8EA845 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C8DE8EF2A2A5D6252EEEB2F0FB79D56 /* ZMJAreaModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 985BABA58C2C67C92E6A0B47130CDABA /* ZMJAreaModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E82CA8F0032764F7506EAF884371C0 /* Masonry-dummy.m */; };
+		1A9A33C7D4AFE80892C49611DE15F3A0 /* UIButton+ZMJAreaPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4A5C79D11C9DF89D4D04A7AD8B53CB /* UIButton+ZMJAreaPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA5120504EA625C73D3303564657BBF /* UIColor+ZMJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D3A52CE0EBDF09DA12F3F39D846313 /* UIColor+ZMJAreaPickerView.m */; };
+		25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A18AEF41EF67ECF32CDCE19686EF4A /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25E3F19059D839D745D4844E173A05E8 /* ZMJAreaTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C64390211185B6CCE91A53913D02F8EA /* ZMJAreaTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6638E00E55F2720292850D62A487B771 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE636C960F70931AF4BA47FE35C05D9 /* MASViewAttribute.m */; };
+		29DF43CB0D12C8BD7D3042E024F5A7A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B633FB786CAE5A04E2F1ACD33F5B19 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39DDFAEFE0C15357AA97D350A395DC8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */; };
+		3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A03BDB8CC3F800E97D103C4E6532E2D8 /* MJProperty.m */; };
+		3C7130390952EE1B9779248E537D4061 /* UIView+ZMJAreaPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD56EF45490953055D0FA7A41A691E99 /* UIView+ZMJAreaPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FB25A8ECF2B4405C4031795A73D7F1 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E719F2E68E536685C5A449D4ACFA0F9 /* ZMJArea.json in Sources */ = {isa = PBXBuildFile; fileRef = A739E0660F7B4E5BABAF657CD5DA3B4C /* ZMJArea.json */; };
+		415A07333F807216C6B66A7AFC3EBEA7 /* ZMJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F69BB9F6CB1942C3F66A54D521D21 /* ZMJAreaPickerView.m */; };
+		41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5443B719E8F9FB2AC6F784F119D98B09 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4716B2960B60DADA95421C762FCCFC12 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A351F7174B273A01B63DDE0801F7AFDC /* Masonry.framework */; };
+		4A803B3EC0E8BB54B8729B1A48124C69 /* Pods-ZMJAreaPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4869DAA6CBA88A9C078C320126D782A9 /* Pods-ZMJAreaPickerView_Tests-dummy.m */; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A16A8601D83614F857C9A293ABB15C /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EE942A995ED6B3AFC13979A10C3AAE9 /* ZMJAreaPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B93AB1CE12EB776E8BF1DF2B1E1EFFD /* ZMJAreaPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7621B10988A34C0449174F6E69DAFDA7 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59A4A025DDCB5C09DC93ECB38557DD29 /* ZMJAreaPickerView_Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F24B017D0D7F343DCC6A66585B00FC /* ZMJAreaPickerView_Macro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F593BF6BDBDF78956C8BB38D03355C /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 847287FCCBC7A1F2A9ED7A369ED11154 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB0FAFA7C7F743F3F2BC4D249A9FF08 /* MJPropertyKey.m */; };
+		727FCD1B170A8E043C9E19E81137A5C1 /* NSString+ZMJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 441776EB621809A4F117C9EE52056068 /* NSString+ZMJAreaPickerView.m */; };
+		741D78AC1816C7BF31F6F51AAD54322F /* UIColor+ZMJAreaPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1D8466B15F7B591768D25A0DD10A88 /* UIColor+ZMJAreaPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1124DA83608C7EA2EF9DE41393CD781C /* MASConstraintMaker.m */; };
+		7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9AAA5B9827C869F7E4133CBAFA2C28 /* NSObject+MJCoding.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0356863D6E5EC27BD49395EE2787410A /* MASCompositeConstraint.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01085E59C9A0219676880DD022FAEF /* MASLayoutConstraint.m */; };
+		8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 31707AE6EEFCF309E0F7328EA3CB6E43 /* MJPropertyType.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A27ACA9C92920C22A93D4C5617B63F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 553310A89502977A320F1E0BE538C599 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E98884D356FB24B156C4F4E437EB641C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */; };
+		912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6ADD2B35003135407A4A9BE1163773 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C265ECC4256F74080F8C31587487F6 /* ZMJAreaPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CBCA9FAEB54C6F0E85A3C3E0471981 /* ZMJAreaPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5EFFB25095EAE987A2E501682C1B41 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9442ECB44FEC97F6A13FED8E6C39B84F /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F64AB7FA7E8EAEE699EC7DDC2F6E9E12 /* MJExtension.framework */; };
+		9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 43939034895DD0F5DAEE741C90670B79 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E30BD4605DE3598E0E42ACF9247B3874 /* NSObject+MJKeyValue.m */; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F42C954F4A71D4C0A4350E0A0E066BDB /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDC5AE7E767DBE863253F7634968948 /* View+MASAdditions.m */; };
+		A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = B758ECBF2C54E6E3DDE4D9BBE7CA6C95 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AE3AA312647F560C706E6E5EB6381C /* MASViewConstraint.m */; };
+		B8F28194DB015830F279F5CAAA5AECD6 /* ZMJAreaPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C68DA78C1D8FF6F8DE070EC711F518 /* ZMJAreaPickerView-dummy.m */; };
+		B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = C32643E4B37DF72CEC70A759F4CAA6A5 /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE0BD0D88524B229FABB0FEAE97A6D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E02BA42E398F5D391EFB47FBBC21B7E /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C19CCE025A5B625A78AA4D6F9143A233 /* ZMJAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E125FEF71DC8CFAB50623DAE32ADA /* ZMJAreaModel.m */; };
+		C28BD0E2300206BF8E986932EF65F482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */; };
+		C56DB5CF632CCCB43E0FF2A517BB4AE6 /* UIView+ZMJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E5DBE326877D9CEC2E3678B06D00D0 /* UIView+ZMJAreaPickerView.m */; };
+		CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D74AA66095E81B40911BDBB65472C9C /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACFBD0CF3788D64E121C6375C570E59 /* UIKit.framework */; };
+		CFB4CAA99D9B8EAB19DEAD86069FF2EC /* Pods-ZMJAreaPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B48858A00631505B199221D74A1024 /* Pods-ZMJAreaPickerView_Example-dummy.m */; };
+		D4DA9DEC82EC2A119291EFBFA42F6702 /* Pods-ZMJAreaPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C6304C29ED6D989B985D905D126C08 /* Pods-ZMJAreaPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8BAEA173CBA20BAEEA06F59D905B875 /* ZMJArea.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AE7E282987B2DBCA1ECE0FAD9B29A45 /* ZMJArea.bundle */; };
+		DE28404F9AE26AF24E5CA83A1F7689AA /* NSString+ZMJAreaPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DBC1B6B77E7CB75EEDD7EA04E85AC00 /* NSString+ZMJAreaPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E008F9FAC42348D869C205EEAFC64727 /* UIButton+ZMJAreaPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CE0DAED792CA30474A88D07F3095F83 /* UIButton+ZMJAreaPickerView.m */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */; };
+		E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C22C6800AD2F05FFC1A5DEDF9FA6B2 /* NSString+MJExtension.m */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DAC40B9EBE7C898E086A3F360FED33 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7A40E74FB807A9EC8DC04A443C1830 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A40AD9828CDB3C727C768DF1A8E28EC /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9B102FBC31861DB11DFDACBF21D4BF /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F63E1CF5349EEB5301B4566F9C7C108A /* ZMJAreaTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EF40CA8F5B6C4F71D75B62058B63F1 /* ZMJAreaTool.m */; };
+		FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D06CE20BCF3148428FE2E618605D6E8B /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = F4911F6ED1E0DE154A166191D1674C12 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FB6F62D09FFABA722EBADD5EAC8DD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		7D44DE714AFB0B4980CD0E62BE1CF598 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		A4851209AA8D79F82ECD0A87F94D8B2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3BA58D0583DF37575CACAB3DDADC85;
+			remoteInfo = MJExtension;
+		};
+		B1FCF1BA962ACDF09427A5B0C4311B9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB37E2218AD88FD20D5A5A4A356939C;
+			remoteInfo = "Pods-ZMJAreaPickerView_Example";
+		};
+		CCAC86074A9275E2C3557BB17F1F720E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0AA3B10CF709D9337B1F2653D3A571;
+			remoteInfo = ZMJAreaPickerView;
+		};
+		EF46F2BE4DF0E617CD5C3F6E0D93246B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02808FECBBBB98B04A8FD364A7AE01E3 /* Pods-ZMJAreaPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMJAreaPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		0356863D6E5EC27BD49395EE2787410A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		04A27ACA9C92920C22A93D4C5617B63F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		05D3A52CE0EBDF09DA12F3F39D846313 /* UIColor+ZMJAreaPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ZMJAreaPickerView.m"; path = "ZMJAreaPickerView/Classes/UIColor+ZMJAreaPickerView.m"; sourceTree = "<group>"; };
+		05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		08EF40CA8F5B6C4F71D75B62058B63F1 /* ZMJAreaTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJAreaTool.m; path = ZMJAreaPickerView/Classes/ZMJAreaTool.m; sourceTree = "<group>"; };
+		09CBCA9FAEB54C6F0E85A3C3E0471981 /* ZMJAreaPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJAreaPickerView-umbrella.h"; sourceTree = "<group>"; };
+		09E5DBE326877D9CEC2E3678B06D00D0 /* UIView+ZMJAreaPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZMJAreaPickerView.m"; path = "ZMJAreaPickerView/Classes/UIView+ZMJAreaPickerView.m"; sourceTree = "<group>"; };
+		0B93AB1CE12EB776E8BF1DF2B1E1EFFD /* ZMJAreaPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJAreaPickerView.h; path = ZMJAreaPickerView/Classes/ZMJAreaPickerView.h; sourceTree = "<group>"; };
+		0BB0FAFA7C7F743F3F2BC4D249A9FF08 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		0C15D6D8FC361E9BABA54240B9D6E036 /* Pods-ZMJAreaPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMJAreaPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0C475F847282F67185E5957A280FE3D0 /* Pods-ZMJAreaPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMJAreaPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1124DA83608C7EA2EF9DE41393CD781C /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		119974A7390656FC20048C24D625E4AD /* ZMJAreaPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMJAreaPickerView.xcconfig; sourceTree = "<group>"; };
+		13AA7DC83CCE8A8A08AD99F9B7B738A8 /* Pods-ZMJAreaPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMJAreaPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13FB25A8ECF2B4405C4031795A73D7F1 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		1493FF4141E87D9058896A05A5927501 /* ZMJAreaPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZMJAreaPickerView.framework; path = ZMJAreaPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D74AA66095E81B40911BDBB65472C9C /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		1DE636C960F70931AF4BA47FE35C05D9 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		1FD6F3E5AF78BC2A36B6D94CFD597A96 /* ZMJAreaPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZMJAreaPickerView-Info.plist"; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		201C254B85A8C297844CC06DF8C2533E /* Pods-ZMJAreaPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMJAreaPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		24AE3AA312647F560C706E6E5EB6381C /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		27F24B017D0D7F343DCC6A66585B00FC /* ZMJAreaPickerView_Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJAreaPickerView_Macro.h; path = ZMJAreaPickerView/Classes/ZMJAreaPickerView_Macro.h; sourceTree = "<group>"; };
+		2A5EFFB25095EAE987A2E501682C1B41 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4A5C79D11C9DF89D4D04A7AD8B53CB /* UIButton+ZMJAreaPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+ZMJAreaPickerView.h"; path = "ZMJAreaPickerView/Classes/UIButton+ZMJAreaPickerView.h"; sourceTree = "<group>"; };
+		31707AE6EEFCF309E0F7328EA3CB6E43 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		356E2B6A11F97F1F2CE0B408A7061AD8 /* Pods_ZMJAreaPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMJAreaPickerView_Example.framework; path = "Pods-ZMJAreaPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3677327BA7A403163EDF457F0F036B99 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		380A76B3BAF040B6DDB6F5A10986AC51 /* ZMJAreaPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZMJAreaPickerView-prefix.pch"; sourceTree = "<group>"; };
+		3A842A94B1D8AF74EA3488F092DA7232 /* Pods-ZMJAreaPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMJAreaPickerView_Example.modulemap"; sourceTree = "<group>"; };
+		3AE7E282987B2DBCA1ECE0FAD9B29A45 /* ZMJArea.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZMJArea.bundle; path = ZMJAreaPickerView/Classes/ZMJArea.bundle; sourceTree = "<group>"; };
+		3DBC1B6B77E7CB75EEDD7EA04E85AC00 /* NSString+ZMJAreaPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZMJAreaPickerView.h"; path = "ZMJAreaPickerView/Classes/NSString+ZMJAreaPickerView.h"; sourceTree = "<group>"; };
+		3E02BA42E398F5D391EFB47FBBC21B7E /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		43939034895DD0F5DAEE741C90670B79 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		441776EB621809A4F117C9EE52056068 /* NSString+ZMJAreaPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZMJAreaPickerView.m"; path = "ZMJAreaPickerView/Classes/NSString+ZMJAreaPickerView.m"; sourceTree = "<group>"; };
+		4869DAA6CBA88A9C078C320126D782A9 /* Pods-ZMJAreaPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMJAreaPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		49F72DCFE8A313ED52B65E3747C231FB /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		4C7A40E74FB807A9EC8DC04A443C1830 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		5009B9EE016213CC6BF4007153158438 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		52D27357D16A3106E7A5A2F8DD06B5B8 /* Pods-ZMJAreaPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMJAreaPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5443B719E8F9FB2AC6F784F119D98B09 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
+		553310A89502977A320F1E0BE538C599 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		56C6304C29ED6D989B985D905D126C08 /* Pods-ZMJAreaPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZMJAreaPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		599E125FEF71DC8CFAB50623DAE32ADA /* ZMJAreaModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJAreaModel.m; path = ZMJAreaPickerView/Classes/ZMJAreaModel.m; sourceTree = "<group>"; };
+		5A40AD9828CDB3C727C768DF1A8E28EC /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		5A71E49E2123504FDDB1C626669CF8EC /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
+		5BF4881AF259B90D37646BAAEF5D0835 /* Pods-ZMJAreaPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZMJAreaPickerView_Tests.modulemap"; sourceTree = "<group>"; };
+		5C826F278447C8C4788D45DA44DB9F8E /* Pods_ZMJAreaPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZMJAreaPickerView_Tests.framework; path = "Pods-ZMJAreaPickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60DCEBB7F2FAC4432C7F984A8B7020BA /* Pods-ZMJAreaPickerView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMJAreaPickerView_Tests-Info.plist"; sourceTree = "<group>"; };
+		62D12803411997479C224C48A6C18C5D /* Pods-ZMJAreaPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMJAreaPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6638E00E55F2720292850D62A487B771 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		681F484FD79B8DDE3198E097F17C008F /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		7621B10988A34C0449174F6E69DAFDA7 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		783F8F524E330912A30159F00B67ED3C /* Pods-ZMJAreaPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZMJAreaPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C1D8466B15F7B591768D25A0DD10A88 /* UIColor+ZMJAreaPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ZMJAreaPickerView.h"; path = "ZMJAreaPickerView/Classes/UIColor+ZMJAreaPickerView.h"; sourceTree = "<group>"; };
+		7CE0DAED792CA30474A88D07F3095F83 /* UIButton+ZMJAreaPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ZMJAreaPickerView.m"; path = "ZMJAreaPickerView/Classes/UIButton+ZMJAreaPickerView.m"; sourceTree = "<group>"; };
+		835F4DC7E889C9B3B2FED7BB5A91A9FB /* Pods-ZMJAreaPickerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMJAreaPickerView_Example-Info.plist"; sourceTree = "<group>"; };
+		84184AD76A51782291BFBE8037B07C4D /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
+		847287FCCBC7A1F2A9ED7A369ED11154 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		88AF954CCA9E3E48AEE3DF0D6EDCB425 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		8F835056338D238EA9468A5215620A59 /* ZMJAreaPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZMJAreaPickerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95E8ACE319A5C58E0A9C851BEC6F6541 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		985BABA58C2C67C92E6A0B47130CDABA /* ZMJAreaModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJAreaModel.h; path = ZMJAreaPickerView/Classes/ZMJAreaModel.h; sourceTree = "<group>"; };
+		98B8842752FBC84120FD8B3582E9030F /* ZMJAreaPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZMJAreaPickerView.modulemap; sourceTree = "<group>"; };
+		98FC00B47F4926064A7DF20C52E4F260 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9A9AAA5B9827C869F7E4133CBAFA2C28 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		9ADE0BD0D88524B229FABB0FEAE97A6D /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F157AEB6623C1D03F28FA52976BB5D6 /* Pods-ZMJAreaPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZMJAreaPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A03BDB8CC3F800E97D103C4E6532E2D8 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		A1B48858A00631505B199221D74A1024 /* Pods-ZMJAreaPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZMJAreaPickerView_Example-dummy.m"; sourceTree = "<group>"; };
+		A351F7174B273A01B63DDE0801F7AFDC /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A739E0660F7B4E5BABAF657CD5DA3B4C /* ZMJArea.json */ = {isa = PBXFileReference; includeInIndex = 1; path = ZMJArea.json; sourceTree = "<group>"; };
+		B3D7325C4DDA27658044C75284B7D8B7 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		B6B633FB786CAE5A04E2F1ACD33F5B19 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		B6DAC40B9EBE7C898E086A3F360FED33 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		B758ECBF2C54E6E3DDE4D9BBE7CA6C95 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		B8C22C6800AD2F05FFC1A5DEDF9FA6B2 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		B9A16A8601D83614F857C9A293ABB15C /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		BFCC8D54B773732A96DA8DC70409A5DB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C0C68DA78C1D8FF6F8DE070EC711F518 /* ZMJAreaPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZMJAreaPickerView-dummy.m"; sourceTree = "<group>"; };
+		C32643E4B37DF72CEC70A759F4CAA6A5 /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		C64390211185B6CCE91A53913D02F8EA /* ZMJAreaTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZMJAreaTool.h; path = ZMJAreaPickerView/Classes/ZMJAreaTool.h; sourceTree = "<group>"; };
+		C7A18AEF41EF67ECF32CDCE19686EF4A /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		CACFBD0CF3788D64E121C6375C570E59 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB01085E59C9A0219676880DD022FAEF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CC6ADD2B35003135407A4A9BE1163773 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		D06CE20BCF3148428FE2E618605D6E8B /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		D0716B409ECFD3AC35D305DE9322FD58 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		D4E82CA8F0032764F7506EAF884371C0 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		D4F8B00CC5CD92FE992B871353A71625 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		D6F593BF6BDBDF78956C8BB38D03355C /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		E1FF5D24C4704BEF8156A078187CFD04 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		E30BD4605DE3598E0E42ACF9247B3874 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		E52D40EC739B9AE866B389259C8EA845 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		E656D33BA2F7A567B68DA12B1B07D752 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		E6DAEFE3120F868CA97BE33BA0B78381 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E9672361DD6E72A63B4ED0AE592D7F25 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		E98884D356FB24B156C4F4E437EB641C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		ECDC5AE7E767DBE863253F7634968948 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		F42C954F4A71D4C0A4350E0A0E066BDB /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F4911F6ED1E0DE154A166191D1674C12 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		F51968AD19A7E7FD1B4D5357F6D8C5F8 /* Pods-ZMJAreaPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZMJAreaPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F64AB7FA7E8EAEE699EC7DDC2F6E9E12 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CB21085962746ABECFF499699B43F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FACF99483524BCCC3562B96641588BE6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		FB9B102FBC31861DB11DFDACBF21D4BF /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		FD56EF45490953055D0FA7A41A691E99 /* UIView+ZMJAreaPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZMJAreaPickerView.h"; path = "ZMJAreaPickerView/Classes/UIView+ZMJAreaPickerView.h"; sourceTree = "<group>"; };
+		FE9F69BB9F6CB1942C3F66A54D521D21 /* ZMJAreaPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZMJAreaPickerView.m; path = ZMJAreaPickerView/Classes/ZMJAreaPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBFACC1FF62F81D904A925F09AF6AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DF43CB0D12C8BD7D3042E024F5A7A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CB9B3A0FFEE49A1C7DA79A8453D240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DDFAEFE0C15357AA97D350A395DC8C /* Foundation.framework in Frameworks */,
+				4716B2960B60DADA95421C762FCCFC12 /* Masonry.framework in Frameworks */,
+				9442ECB44FEC97F6A13FED8E6C39B84F /* MJExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A485ED99935F56DEDE050A3A07A06C3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28BD0E2300206BF8E986932EF65F482 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC29E832DDAB80383225B6835060BA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00A62F0C3273DCE8796AA727A7827A6E /* Pods-ZMJAreaPickerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5BF4881AF259B90D37646BAAEF5D0835 /* Pods-ZMJAreaPickerView_Tests.modulemap */,
+				9F157AEB6623C1D03F28FA52976BB5D6 /* Pods-ZMJAreaPickerView_Tests-acknowledgements.markdown */,
+				F51968AD19A7E7FD1B4D5357F6D8C5F8 /* Pods-ZMJAreaPickerView_Tests-acknowledgements.plist */,
+				4869DAA6CBA88A9C078C320126D782A9 /* Pods-ZMJAreaPickerView_Tests-dummy.m */,
+				60DCEBB7F2FAC4432C7F984A8B7020BA /* Pods-ZMJAreaPickerView_Tests-Info.plist */,
+				56C6304C29ED6D989B985D905D126C08 /* Pods-ZMJAreaPickerView_Tests-umbrella.h */,
+				0C475F847282F67185E5957A280FE3D0 /* Pods-ZMJAreaPickerView_Tests.debug.xcconfig */,
+				0C15D6D8FC361E9BABA54240B9D6E036 /* Pods-ZMJAreaPickerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZMJAreaPickerView_Tests";
+			path = "Target Support Files/Pods-ZMJAreaPickerView_Tests";
+			sourceTree = "<group>";
+		};
+		06CA4A766A426FAFCC87C0D34DDDA814 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98B8842752FBC84120FD8B3582E9030F /* ZMJAreaPickerView.modulemap */,
+				119974A7390656FC20048C24D625E4AD /* ZMJAreaPickerView.xcconfig */,
+				C0C68DA78C1D8FF6F8DE070EC711F518 /* ZMJAreaPickerView-dummy.m */,
+				1FD6F3E5AF78BC2A36B6D94CFD597A96 /* ZMJAreaPickerView-Info.plist */,
+				380A76B3BAF040B6DDB6F5A10986AC51 /* ZMJAreaPickerView-prefix.pch */,
+				09CBCA9FAEB54C6F0E85A3C3E0471981 /* ZMJAreaPickerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZMJAreaPickerView";
+			sourceTree = "<group>";
+		};
+		13B9CB6C7134971BC3D588621594224C /* ZMJArea.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				A739E0660F7B4E5BABAF657CD5DA3B4C /* ZMJArea.json */,
+			);
+			name = ZMJArea.bundle;
+			path = ZMJAreaPickerView/Classes/ZMJArea.bundle;
+			sourceTree = "<group>";
+		};
+		17CD8C4237B869033F0C4FCDC3FC214C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E98884D356FB24B156C4F4E437EB641C /* MASCompositeConstraint.h */,
+				0356863D6E5EC27BD49395EE2787410A /* MASCompositeConstraint.m */,
+				2A5EFFB25095EAE987A2E501682C1B41 /* MASConstraint.h */,
+				4C7A40E74FB807A9EC8DC04A443C1830 /* MASConstraint.m */,
+				F42C954F4A71D4C0A4350E0A0E066BDB /* MASConstraint+Private.h */,
+				F4911F6ED1E0DE154A166191D1674C12 /* MASConstraintMaker.h */,
+				1124DA83608C7EA2EF9DE41393CD781C /* MASConstraintMaker.m */,
+				553310A89502977A320F1E0BE538C599 /* MASLayoutConstraint.h */,
+				CB01085E59C9A0219676880DD022FAEF /* MASLayoutConstraint.m */,
+				B6B633FB786CAE5A04E2F1ACD33F5B19 /* Masonry.h */,
+				6638E00E55F2720292850D62A487B771 /* MASUtilities.h */,
+				13FB25A8ECF2B4405C4031795A73D7F1 /* MASViewAttribute.h */,
+				1DE636C960F70931AF4BA47FE35C05D9 /* MASViewAttribute.m */,
+				5A40AD9828CDB3C727C768DF1A8E28EC /* MASViewConstraint.h */,
+				24AE3AA312647F560C706E6E5EB6381C /* MASViewConstraint.m */,
+				681F484FD79B8DDE3198E097F17C008F /* NSArray+MASAdditions.h */,
+				BFCC8D54B773732A96DA8DC70409A5DB /* NSArray+MASAdditions.m */,
+				98FC00B47F4926064A7DF20C52E4F260 /* NSArray+MASShorthandAdditions.h */,
+				E52D40EC739B9AE866B389259C8EA845 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9ADE0BD0D88524B229FABB0FEAE97A6D /* NSLayoutConstraint+MASDebugAdditions.m */,
+				B9A16A8601D83614F857C9A293ABB15C /* View+MASAdditions.h */,
+				ECDC5AE7E767DBE863253F7634968948 /* View+MASAdditions.m */,
+				B6DAC40B9EBE7C898E086A3F360FED33 /* View+MASShorthandAdditions.h */,
+				04A27ACA9C92920C22A93D4C5617B63F /* ViewController+MASAdditions.h */,
+				FACF99483524BCCC3562B96641588BE6 /* ViewController+MASAdditions.m */,
+				67476A3571E92802EC16CCA3743979D2 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		24B2D46AD0DF00E0A75DB42AA9ECC9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */,
+				356E2B6A11F97F1F2CE0B408A7061AD8 /* Pods_ZMJAreaPickerView_Example.framework */,
+				5C826F278447C8C4788D45DA44DB9F8E /* Pods_ZMJAreaPickerView_Tests.framework */,
+				1493FF4141E87D9058896A05A5927501 /* ZMJAreaPickerView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2611869ED8025F200E1F2C84B9C287B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3AE7E282987B2DBCA1ECE0FAD9B29A45 /* ZMJArea.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2FE32D0B1EB242444CDA3F417DD79FF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32599682723128728842CB0012A53522 /* ZMJAreaPickerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		32599682723128728842CB0012A53522 /* ZMJAreaPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3DBC1B6B77E7CB75EEDD7EA04E85AC00 /* NSString+ZMJAreaPickerView.h */,
+				441776EB621809A4F117C9EE52056068 /* NSString+ZMJAreaPickerView.m */,
+				2C4A5C79D11C9DF89D4D04A7AD8B53CB /* UIButton+ZMJAreaPickerView.h */,
+				7CE0DAED792CA30474A88D07F3095F83 /* UIButton+ZMJAreaPickerView.m */,
+				7C1D8466B15F7B591768D25A0DD10A88 /* UIColor+ZMJAreaPickerView.h */,
+				05D3A52CE0EBDF09DA12F3F39D846313 /* UIColor+ZMJAreaPickerView.m */,
+				FD56EF45490953055D0FA7A41A691E99 /* UIView+ZMJAreaPickerView.h */,
+				09E5DBE326877D9CEC2E3678B06D00D0 /* UIView+ZMJAreaPickerView.m */,
+				985BABA58C2C67C92E6A0B47130CDABA /* ZMJAreaModel.h */,
+				599E125FEF71DC8CFAB50623DAE32ADA /* ZMJAreaModel.m */,
+				0B93AB1CE12EB776E8BF1DF2B1E1EFFD /* ZMJAreaPickerView.h */,
+				FE9F69BB9F6CB1942C3F66A54D521D21 /* ZMJAreaPickerView.m */,
+				27F24B017D0D7F343DCC6A66585B00FC /* ZMJAreaPickerView_Macro.h */,
+				C64390211185B6CCE91A53913D02F8EA /* ZMJAreaTool.h */,
+				08EF40CA8F5B6C4F71D75B62058B63F1 /* ZMJAreaTool.m */,
+				CE192AE3DBEBF84CD7ADE933295F7D22 /* Pod */,
+				2611869ED8025F200E1F2C84B9C287B8 /* Resources */,
+				06CA4A766A426FAFCC87C0D34DDDA814 /* Support Files */,
+				13B9CB6C7134971BC3D588621594224C /* ZMJArea.bundle */,
+			);
+			name = ZMJAreaPickerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46E5BC92139E402A795D50B5B343C9DA /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				43939034895DD0F5DAEE741C90670B79 /* MJExtension.h */,
+				CC6ADD2B35003135407A4A9BE1163773 /* MJExtensionConst.h */,
+				49F72DCFE8A313ED52B65E3747C231FB /* MJExtensionConst.m */,
+				1D74AA66095E81B40911BDBB65472C9C /* MJFoundation.h */,
+				5009B9EE016213CC6BF4007153158438 /* MJFoundation.m */,
+				D06CE20BCF3148428FE2E618605D6E8B /* MJProperty.h */,
+				A03BDB8CC3F800E97D103C4E6532E2D8 /* MJProperty.m */,
+				B758ECBF2C54E6E3DDE4D9BBE7CA6C95 /* MJPropertyKey.h */,
+				0BB0FAFA7C7F743F3F2BC4D249A9FF08 /* MJPropertyKey.m */,
+				C32643E4B37DF72CEC70A759F4CAA6A5 /* MJPropertyType.h */,
+				31707AE6EEFCF309E0F7328EA3CB6E43 /* MJPropertyType.m */,
+				FB9B102FBC31861DB11DFDACBF21D4BF /* NSObject+MJClass.h */,
+				E9672361DD6E72A63B4ED0AE592D7F25 /* NSObject+MJClass.m */,
+				847287FCCBC7A1F2A9ED7A369ED11154 /* NSObject+MJCoding.h */,
+				9A9AAA5B9827C869F7E4133CBAFA2C28 /* NSObject+MJCoding.m */,
+				C7A18AEF41EF67ECF32CDCE19686EF4A /* NSObject+MJKeyValue.h */,
+				E30BD4605DE3598E0E42ACF9247B3874 /* NSObject+MJKeyValue.m */,
+				3E02BA42E398F5D391EFB47FBBC21B7E /* NSObject+MJProperty.h */,
+				3677327BA7A403163EDF457F0F036B99 /* NSObject+MJProperty.m */,
+				7621B10988A34C0449174F6E69DAFDA7 /* NSString+MJExtension.h */,
+				B8C22C6800AD2F05FFC1A5DEDF9FA6B2 /* NSString+MJExtension.m */,
+				7598E7C793024978E2B1C4F5A54AABB0 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		4ADCD4083E97045E8F4B490BC7760791 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				794C28D729F3FC5C797B2A55B0CCB322 /* Pods-ZMJAreaPickerView_Example */,
+				00A62F0C3273DCE8796AA727A7827A6E /* Pods-ZMJAreaPickerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		67476A3571E92802EC16CCA3743979D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FF5D24C4704BEF8156A078187CFD04 /* Masonry.modulemap */,
+				E656D33BA2F7A567B68DA12B1B07D752 /* Masonry.xcconfig */,
+				D4E82CA8F0032764F7506EAF884371C0 /* Masonry-dummy.m */,
+				88AF954CCA9E3E48AEE3DF0D6EDCB425 /* Masonry-Info.plist */,
+				B3D7325C4DDA27658044C75284B7D8B7 /* Masonry-prefix.pch */,
+				D6F593BF6BDBDF78956C8BB38D03355C /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		67D5B022BFA4E3B894E53DAA16306F39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17CD8C4237B869033F0C4FCDC3FC214C /* Masonry */,
+				46E5BC92139E402A795D50B5B343C9DA /* MJExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7598E7C793024978E2B1C4F5A54AABB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84184AD76A51782291BFBE8037B07C4D /* MJExtension.modulemap */,
+				D0716B409ECFD3AC35D305DE9322FD58 /* MJExtension.xcconfig */,
+				D4F8B00CC5CD92FE992B871353A71625 /* MJExtension-dummy.m */,
+				5A71E49E2123504FDDB1C626669CF8EC /* MJExtension-Info.plist */,
+				95E8ACE319A5C58E0A9C851BEC6F6541 /* MJExtension-prefix.pch */,
+				5443B719E8F9FB2AC6F784F119D98B09 /* MJExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		794C28D729F3FC5C797B2A55B0CCB322 /* Pods-ZMJAreaPickerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3A842A94B1D8AF74EA3488F092DA7232 /* Pods-ZMJAreaPickerView_Example.modulemap */,
+				13AA7DC83CCE8A8A08AD99F9B7B738A8 /* Pods-ZMJAreaPickerView_Example-acknowledgements.markdown */,
+				52D27357D16A3106E7A5A2F8DD06B5B8 /* Pods-ZMJAreaPickerView_Example-acknowledgements.plist */,
+				A1B48858A00631505B199221D74A1024 /* Pods-ZMJAreaPickerView_Example-dummy.m */,
+				783F8F524E330912A30159F00B67ED3C /* Pods-ZMJAreaPickerView_Example-frameworks.sh */,
+				835F4DC7E889C9B3B2FED7BB5A91A9FB /* Pods-ZMJAreaPickerView_Example-Info.plist */,
+				02808FECBBBB98B04A8FD364A7AE01E3 /* Pods-ZMJAreaPickerView_Example-umbrella.h */,
+				201C254B85A8C297844CC06DF8C2533E /* Pods-ZMJAreaPickerView_Example.debug.xcconfig */,
+				62D12803411997479C224C48A6C18C5D /* Pods-ZMJAreaPickerView_Example.release.xcconfig */,
+			);
+			name = "Pods-ZMJAreaPickerView_Example";
+			path = "Target Support Files/Pods-ZMJAreaPickerView_Example";
+			sourceTree = "<group>";
+		};
+		7AD0E737C5C6CE388B1B0F44F25A4EB9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				05E6F189FBC749E61E2693E259769E3B /* Foundation.framework */,
+				CACFBD0CF3788D64E121C6375C570E59 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE192AE3DBEBF84CD7ADE933295F7D22 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9CB21085962746ABECFF499699B43F6 /* LICENSE */,
+				E6DAEFE3120F868CA97BE33BA0B78381 /* README.md */,
+				8F835056338D238EA9468A5215620A59 /* ZMJAreaPickerView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2FE32D0B1EB242444CDA3F417DD79FF6 /* Development Pods */,
+				E0376BC72A6E4A830A4717912167C300 /* Frameworks */,
+				67D5B022BFA4E3B894E53DAA16306F39 /* Pods */,
+				24B2D46AD0DF00E0A75DB42AA9ECC9BC /* Products */,
+				4ADCD4083E97045E8F4B490BC7760791 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0376BC72A6E4A830A4717912167C300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A351F7174B273A01B63DDE0801F7AFDC /* Masonry.framework */,
+				F64AB7FA7E8EAEE699EC7DDC2F6E9E12 /* MJExtension.framework */,
+				7AD0E737C5C6CE388B1B0F44F25A4EB9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51144F38EA5B03DFE60DC743679EC5D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4DA9DEC82EC2A119291EFBFA42F6702 /* Pods-ZMJAreaPickerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791E22624BE9352C069D5BE7204C77DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE28404F9AE26AF24E5CA83A1F7689AA /* NSString+ZMJAreaPickerView.h in Headers */,
+				1A9A33C7D4AFE80892C49611DE15F3A0 /* UIButton+ZMJAreaPickerView.h in Headers */,
+				741D78AC1816C7BF31F6F51AAD54322F /* UIColor+ZMJAreaPickerView.h in Headers */,
+				3C7130390952EE1B9779248E537D4061 /* UIView+ZMJAreaPickerView.h in Headers */,
+				0C8DE8EF2A2A5D6252EEEB2F0FB79D56 /* ZMJAreaModel.h in Headers */,
+				92C265ECC4256F74080F8C31587487F6 /* ZMJAreaPickerView-umbrella.h in Headers */,
+				4EE942A995ED6B3AFC13979A10C3AAE9 /* ZMJAreaPickerView.h in Headers */,
+				59A4A025DDCB5C09DC93ECB38557DD29 /* ZMJAreaPickerView_Macro.h in Headers */,
+				25E3F19059D839D745D4844E173A05E8 /* ZMJAreaTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE519029BD8AD372AA51AEE58AAAB87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09598ACDD7591BB00A50E2BB6615A73B /* Pods-ZMJAreaPickerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB1DE317F3D4815D87890DEB09B99C2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BBD20F99D3D0EFD9D38337503D4C1F /* MJExtension-umbrella.h in Headers */,
+				9796F9FAC1941A992E8B17F31D62B2E4 /* MJExtension.h in Headers */,
+				912758556B9AB1DEEABE189955C5B8F2 /* MJExtensionConst.h in Headers */,
+				CAD2539BE3C4AB2F1FD1DF30D7629238 /* MJFoundation.h in Headers */,
+				FAB7CF107E7E3EE6FA7949CF18B8BA12 /* MJProperty.h in Headers */,
+				A47472F50A3A7869A644789159571A5C /* MJPropertyKey.h in Headers */,
+				B94AD428EA4EFD7BA79BCF57680D390A /* MJPropertyType.h in Headers */,
+				F0EF96DAB145D1B2247C01B3517B54FE /* NSObject+MJClass.h in Headers */,
+				6EC015330CAC3D60745A20B01928B8DB /* NSObject+MJCoding.h in Headers */,
+				25E03213AA01D83EB415A04635B34F1A /* NSObject+MJKeyValue.h in Headers */,
+				C0C8961B2EAF90DA7244B427C569FCFD /* NSObject+MJProperty.h in Headers */,
+				51E7A17D617310CE81444F5D315EAEF0 /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FB37E2218AD88FD20D5A5A4A356939C /* Pods-ZMJAreaPickerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2231237C6689B5BEBB4FD8C65DE887 /* Build configuration list for PBXNativeTarget "Pods-ZMJAreaPickerView_Example" */;
+			buildPhases = (
+				CFE519029BD8AD372AA51AEE58AAAB87 /* Headers */,
+				04EE8D17823714484CF140AF499CB150 /* Sources */,
+				A485ED99935F56DEDE050A3A07A06C3E /* Frameworks */,
+				F457D9085BED5AF0BAA10583926E1B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3AB9B82FDADCEE7C32444BF10748C7 /* PBXTargetDependency */,
+				AA0635EE7F1A643B8879AF4CEA80A84F /* PBXTargetDependency */,
+				B4269580A44BD7B243968EAB186D4F8D /* PBXTargetDependency */,
+			);
+			name = "Pods-ZMJAreaPickerView_Example";
+			productName = "Pods-ZMJAreaPickerView_Example";
+			productReference = 356E2B6A11F97F1F2CE0B408A7061AD8 /* Pods_ZMJAreaPickerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C0AA3B10CF709D9337B1F2653D3A571 /* ZMJAreaPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4C0BAD49CE414102DCE9D60394BC947 /* Build configuration list for PBXNativeTarget "ZMJAreaPickerView" */;
+			buildPhases = (
+				791E22624BE9352C069D5BE7204C77DE /* Headers */,
+				52065BF2FADD65810F23BEA151FAB388 /* Sources */,
+				81CB9B3A0FFEE49A1C7DA79A8453D240 /* Frameworks */,
+				068B1C4DDE781A6B46104EFD4B0DED28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C49355B9D18F092632A3982F1505AA /* PBXTargetDependency */,
+				41BD848A7108E29CC96ECDBAE888D706 /* PBXTargetDependency */,
+			);
+			name = ZMJAreaPickerView;
+			productName = ZMJAreaPickerView;
+			productReference = 1493FF4141E87D9058896A05A5927501 /* ZMJAreaPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				DB1DE317F3D4815D87890DEB09B99C2E /* Headers */,
+				7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */,
+				E3DFB7F06EC80553131DB5B0993D681C /* Frameworks */,
+				5526C4C8822D8F13C2C736A5F9677481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFB98C4B92B7ACE1BDBDEBBD4705C347 /* Pods-ZMJAreaPickerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F266A82D7F738711719C288C06C412AA /* Build configuration list for PBXNativeTarget "Pods-ZMJAreaPickerView_Tests" */;
+			buildPhases = (
+				51144F38EA5B03DFE60DC743679EC5D2 /* Headers */,
+				F3892352303B037134803B5BF4A4B8E2 /* Sources */,
+				1EBFACC1FF62F81D904A925F09AF6AC3 /* Frameworks */,
+				4E46273542033204D6C76FE9E5DAABA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E68F606E943817583DAFFB681BBE9A04 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZMJAreaPickerView_Tests";
+			productName = "Pods-ZMJAreaPickerView_Tests";
+			productReference = 5C826F278447C8C4788D45DA44DB9F8E /* Pods_ZMJAreaPickerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 24B2D46AD0DF00E0A75DB42AA9ECC9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */,
+				0FB37E2218AD88FD20D5A5A4A356939C /* Pods-ZMJAreaPickerView_Example */,
+				FFB98C4B92B7ACE1BDBDEBBD4705C347 /* Pods-ZMJAreaPickerView_Tests */,
+				4C0AA3B10CF709D9337B1F2653D3A571 /* ZMJAreaPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068B1C4DDE781A6B46104EFD4B0DED28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BAEA173CBA20BAEEA06F59D905B875 /* ZMJArea.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E46273542033204D6C76FE9E5DAABA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5526C4C8822D8F13C2C736A5F9677481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F457D9085BED5AF0BAA10583926E1B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EE8D17823714484CF140AF499CB150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB4CAA99D9B8EAB19DEAD86069FF2EC /* Pods-ZMJAreaPickerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52065BF2FADD65810F23BEA151FAB388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727FCD1B170A8E043C9E19E81137A5C1 /* NSString+ZMJAreaPickerView.m in Sources */,
+				E008F9FAC42348D869C205EEAFC64727 /* UIButton+ZMJAreaPickerView.m in Sources */,
+				1FA5120504EA625C73D3303564657BBF /* UIColor+ZMJAreaPickerView.m in Sources */,
+				C56DB5CF632CCCB43E0FF2A517BB4AE6 /* UIView+ZMJAreaPickerView.m in Sources */,
+				3E719F2E68E536685C5A449D4ACFA0F9 /* ZMJArea.json in Sources */,
+				C19CCE025A5B625A78AA4D6F9143A233 /* ZMJAreaModel.m in Sources */,
+				B8F28194DB015830F279F5CAAA5AECD6 /* ZMJAreaPickerView-dummy.m in Sources */,
+				415A07333F807216C6B66A7AFC3EBEA7 /* ZMJAreaPickerView.m in Sources */,
+				F63E1CF5349EEB5301B4566F9C7C108A /* ZMJAreaTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7062CDA8FD11E2E9D19A9A40021C44AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05452B06007B8F1969A23C3C9D494CBD /* MJExtension-dummy.m in Sources */,
+				01E3E1FB1F9A0FA56C79608F8139A32F /* MJExtensionConst.m in Sources */,
+				033484819373AB7E020C0026CAE0F7BF /* MJFoundation.m in Sources */,
+				3BAA6DDBE44238B40D6A72A16EF41814 /* MJProperty.m in Sources */,
+				7155607EADA71F37CFE188D866B7E40A /* MJPropertyKey.m in Sources */,
+				8A2E1E487FBFC3DF55C12C056BFA36A1 /* MJPropertyType.m in Sources */,
+				0077E2C1E1042512F36A3204CFD42BEF /* NSObject+MJClass.m in Sources */,
+				7BE71B62F38458AC771581F60006F9CE /* NSObject+MJCoding.m in Sources */,
+				99BF63084CB0EDEA0A9CBB77E8315E6E /* NSObject+MJKeyValue.m in Sources */,
+				07288680C9E7EDC1E240E0E3C50EE65C /* NSObject+MJProperty.m in Sources */,
+				E6775033B3F0080B56E29AB395A08867 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3892352303B037134803B5BF4A4B8E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A803B3EC0E8BB54B8729B1A48124C69 /* Pods-ZMJAreaPickerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41BD848A7108E29CC96ECDBAE888D706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 04FB6F62D09FFABA722EBADD5EAC8DD7 /* PBXContainerItemProxy */;
+		};
+		84C49355B9D18F092632A3982F1505AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = 7D44DE714AFB0B4980CD0E62BE1CF598 /* PBXContainerItemProxy */;
+		};
+		AA0635EE7F1A643B8879AF4CEA80A84F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = EF46F2BE4DF0E617CD5C3F6E0D93246B /* PBXContainerItemProxy */;
+		};
+		AD3AB9B82FDADCEE7C32444BF10748C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 4D3BA58D0583DF37575CACAB3DDADC85 /* MJExtension */;
+			targetProxy = A4851209AA8D79F82ECD0A87F94D8B2C /* PBXContainerItemProxy */;
+		};
+		B4269580A44BD7B243968EAB186D4F8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZMJAreaPickerView;
+			target = 4C0AA3B10CF709D9337B1F2653D3A571 /* ZMJAreaPickerView */;
+			targetProxy = CCAC86074A9275E2C3557BB17F1F720E /* PBXContainerItemProxy */;
+		};
+		E68F606E943817583DAFFB681BBE9A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZMJAreaPickerView_Example";
+			target = 0FB37E2218AD88FD20D5A5A4A356939C /* Pods-ZMJAreaPickerView_Example */;
+			targetProxy = B1FCF1BA962ACDF09427A5B0C4311B9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07F1277DBD0BD5FCE38FCC59D65E9ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D12803411997479C224C48A6C18C5D /* Pods-ZMJAreaPickerView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Example/Pods-ZMJAreaPickerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Example/Pods-ZMJAreaPickerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		132BF7E589DEC226899B1AF537CA55EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119974A7390656FC20048C24D625E4AD /* ZMJAreaPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMJAreaPickerView/ZMJAreaPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMJAreaPickerView/ZMJAreaPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZMJAreaPickerView/ZMJAreaPickerView.modulemap";
+				PRODUCT_MODULE_NAME = ZMJAreaPickerView;
+				PRODUCT_NAME = ZMJAreaPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E676FB8956DACC90CC5C96C08270C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C15D6D8FC361E9BABA54240B9D6E036 /* Pods-ZMJAreaPickerView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Tests/Pods-ZMJAreaPickerView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Tests/Pods-ZMJAreaPickerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		527D6664223B803E9C7307F58E3CA12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E656D33BA2F7A567B68DA12B1B07D752 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73454B6D1A2B29EBE8F986C698CAC0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201C254B85A8C297844CC06DF8C2533E /* Pods-ZMJAreaPickerView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Example/Pods-ZMJAreaPickerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Example/Pods-ZMJAreaPickerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C65F7CC9708EE0690525E4800598E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E656D33BA2F7A567B68DA12B1B07D752 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CFB7F8C44258CCE2FFB8F1326B10270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119974A7390656FC20048C24D625E4AD /* ZMJAreaPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZMJAreaPickerView/ZMJAreaPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZMJAreaPickerView/ZMJAreaPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZMJAreaPickerView/ZMJAreaPickerView.modulemap";
+				PRODUCT_MODULE_NAME = ZMJAreaPickerView;
+				PRODUCT_NAME = ZMJAreaPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C842A608BABB0D1399294C5C7D55AB24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0716B409ECFD3AC35D305DE9322FD58 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5C30BC417510C79EDF76DCA0DAFFA03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C475F847282F67185E5957A280FE3D0 /* Pods-ZMJAreaPickerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Tests/Pods-ZMJAreaPickerView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZMJAreaPickerView_Tests/Pods-ZMJAreaPickerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E61777CBBD35D87D3F573DF8663F99A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0716B409ECFD3AC35D305DE9322FD58 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJExtension/MJExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJExtension/MJExtension.modulemap";
+				PRODUCT_MODULE_NAME = MJExtension;
+				PRODUCT_NAME = MJExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8E68449A18121BC5A5B5C491F1283E /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C842A608BABB0D1399294C5C7D55AB24 /* Debug */,
+				E61777CBBD35D87D3F573DF8663F99A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65F7CC9708EE0690525E4800598E8E /* Debug */,
+				527D6664223B803E9C7307F58E3CA12A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4C0BAD49CE414102DCE9D60394BC947 /* Build configuration list for PBXNativeTarget "ZMJAreaPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CFB7F8C44258CCE2FFB8F1326B10270 /* Debug */,
+				132BF7E589DEC226899B1AF537CA55EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2231237C6689B5BEBB4FD8C65DE887 /* Build configuration list for PBXNativeTarget "Pods-ZMJAreaPickerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73454B6D1A2B29EBE8F986C698CAC0E7 /* Debug */,
+				07F1277DBD0BD5FCE38FCC59D65E9ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F266A82D7F738711719C288C06C412AA /* Build configuration list for PBXNativeTarget "Pods-ZMJAreaPickerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C30BC417510C79EDF76DCA0DAFFA03 /* Debug */,
+				3E676FB8956DACC90CC5C96C08270C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

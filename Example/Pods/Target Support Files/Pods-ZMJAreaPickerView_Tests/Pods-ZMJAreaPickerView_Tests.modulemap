@@ -1,0 +1,6 @@
+framework module Pods_ZMJAreaPickerView_Tests {
+  umbrella header "Pods-ZMJAreaPickerView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,29 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJExtension (3.0.17)
+  - ZMJAreaPickerView (0.0.1):
+    - Masonry (~> 1.1.0)
+    - MJExtension (~> 3.0.17)
+
+DEPENDENCIES:
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.17)
+  - ZMJAreaPickerView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - MJExtension
+
+EXTERNAL SOURCES:
+  ZMJAreaPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
+  ZMJAreaPickerView: 7d1d81cf89a812d73facb1d7674b4f48378041ed
+
+PODFILE CHECKSUM: 08bebc7efac68b93b875b5803f635a6f2a18b779
+
+COCOAPODS: 1.8.4

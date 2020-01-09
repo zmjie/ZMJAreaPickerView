@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="ZMJViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2r-vg-PVE">
+                                <rect key="frame" x="116.5" y="208.5" width="142" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nsL-HB-Is7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="选择地址-Sheet"/>
+                                <connections>
+                                    <action selector="zmj_btnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="Trb-wQ-pAA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6A-0N-OOO">
+                                <rect key="frame" x="187.5" y="278.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAS-5J-JEy">
+                                <rect key="frame" x="121.5" y="408.5" width="132" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uet-VZ-QUA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="选择地址-Alert"/>
+                                <connections>
+                                    <action selector="zmj_btnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="QsL-pt-aTD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYK-eE-ZVy">
+                                <rect key="frame" x="187.5" y="478.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c6A-0N-OOO" firstAttribute="top" secondItem="e2r-vg-PVE" secondAttribute="bottom" constant="20" id="1Da-wW-VBG"/>
+                            <constraint firstItem="e2r-vg-PVE" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="-100" id="DH3-ol-Q6y"/>
+                            <constraint firstItem="e2r-vg-PVE" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="NxH-gR-NCV"/>
+                            <constraint firstItem="nAS-5J-JEy" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="100" id="POq-kY-qGt"/>
+                            <constraint firstItem="jYK-eE-ZVy" firstAttribute="top" secondItem="nAS-5J-JEy" secondAttribute="bottom" constant="20" id="cjF-Qh-ygn"/>
+                            <constraint firstItem="jYK-eE-ZVy" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="kAz-cG-jVc"/>
+                            <constraint firstItem="nAS-5J-JEy" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="l3j-fX-UTZ"/>
+                            <constraint firstItem="c6A-0N-OOO" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="yix-zf-FqA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="zmj_tapBtn1" destination="e2r-vg-PVE" id="25A-df-BjK"/>
+                        <outlet property="zmj_tapBtn2" destination="nAS-5J-JEy" id="94N-hL-YrF"/>
+                        <outlet property="zmj_titleLabel1" destination="c6A-0N-OOO" id="kQK-7C-bho"/>
+                        <outlet property="zmj_titleLabel2" destination="jYK-eE-ZVy" id="3Vw-YY-i8U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+    </scenes>
+</document>

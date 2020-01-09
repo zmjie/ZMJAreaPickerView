@@ -1,0 +1,6 @@
+framework module ZMJAreaPickerView {
+  umbrella header "ZMJAreaPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
