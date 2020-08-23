@@ -161,9 +161,9 @@
                 zmj_areaListModel2 = self.zmj_dataSourceArr2[2][[self.zmj_pickerView selectedRowInComponent:2]];
             }
             
-            if ([self.zmj_delegate respondsToSelector:@selector(zmj_areaPickerViewStyle:zmj_shengObj:zmj_shiObj:zmj_xianObj:)]) {
+            if ([self.zmj_delegate respondsToSelector:@selector(zmj_areaPickerView:zmj_shengObj:zmj_shiObj:zmj_xianObj:)]) {
 
-                [self.zmj_delegate zmj_areaPickerViewStyle:self.zmj_style zmj_shengObj:zmj_areaListModel0 zmj_shiObj:zmj_areaListModel1 zmj_xianObj:zmj_areaListModel2];
+                [self.zmj_delegate zmj_areaPickerView:self zmj_shengObj:zmj_areaListModel0 zmj_shiObj:zmj_areaListModel1 zmj_xianObj:zmj_areaListModel2];
             }
         }
         
@@ -220,7 +220,7 @@
                 if (self.zmj_shengID) {
                     
                     NSInteger zmj_row = [ZMJAreaTool zmj_getAddressRowArr:self.zmj_dataSourceArr2[0] zmj_code:self.zmj_shengID];
-
+                    
                     zmj_areaListModel = self.zmj_dataSourceArr2[0][zmj_row];
 
                     [self.zmj_dataSourceArr2 addObject:zmj_areaListModel.child];
@@ -465,7 +465,7 @@
             
         case 1:{
             
-            ZMJAreaListModel *zmj_areaListModel = self.zmj_dataSourceArr2[component][row];
+            ZMJAreaListModel *zmj_areaListModel = self.zmj_dataSourceArr2[1][row];
             [_zmj_dataSourceArr2 replaceObjectAtIndex:2 withObject:zmj_areaListModel.child];
             
             [pickerView reloadComponent:2];

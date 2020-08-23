@@ -11,26 +11,10 @@
 // 屏幕宽度
 #define zmj_screenWidth (int)MIN([UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width)
 
-// 屏幕高度
-#define zmj_screenHeight (int)MAX([UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width)
-
-// 状态栏高度
-#define zmj_statusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
-
-// 导航栏高度
-#define zmj_navBarHeight (44 + zmj_statusBarHeight)
-
 // RGB颜色值
 #define zmj_color(r, g, b) zmj_colora(r, g, b, 1.0)
 
 #define zmj_colora(r, g, b, a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
-
-#define zmj_weakObj(o) autoreleasepool{} __weak typeof(o) o##Weak = o;
-
-#define zmj_strongObj(o) autoreleasepool{} __strong typeof(o) o = o##Weak;
-
-// 获取图片
-#define zmj_imageNamed(name) [UIImage imageNamed:(name)]
 
 // 距离比例
 #define zmj_size(R) (zmj_ratio * R)

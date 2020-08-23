@@ -28,20 +28,23 @@
     
     __block ZMJAreaListModel *zmj_areaListModel0;
     [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-
+        
         if ([obj isKindOfClass:[ZMJAreaListModel class]]) {
-
+            
             ZMJAreaListModel *zmj_areaListModel1 = (ZMJAreaListModel *)obj;
-NSLog(@"--->>>%@", zmj_areaListModel1.name);
+            
             if ([zmj_areaListModel1.code isEqualToString:code]) {
-
+                
                 zmj_areaListModel0 = zmj_areaListModel1;
                 *stop = YES;
             }
         }
     }];
-
-    zmj_row = [array indexOfObject:zmj_areaListModel0];
+    
+    if (zmj_areaListModel0) {
+        
+        zmj_row = [array indexOfObject:zmj_areaListModel0];
+    }
     
     return zmj_row;
 }

@@ -7,8 +7,6 @@
 
 #import "UIView+ZMJAreaPickerView.h"
 
-#import "ZMJAreaPickerView_Macro.h"
-
 @implementation UIView (ZMJAreaPickerView)
 
 - (void)setZmj_width:(CGFloat)zmj_width {

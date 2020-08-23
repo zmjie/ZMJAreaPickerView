@@ -30,14 +30,14 @@
                                     <action selector="zmj_btnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="Trb-wQ-pAA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6A-0N-OOO">
-                                <rect key="frame" x="187.5" y="278.5" width="0.0" height="0.0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6A-0N-OOO">
+                                <rect key="frame" x="187.5" y="348.5" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAS-5J-JEy">
-                                <rect key="frame" x="121.5" y="408.5" width="132" height="50"/>
+                                <rect key="frame" x="121.5" y="278.5" width="132" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="uet-VZ-QUA"/>
                                 </constraints>
@@ -47,30 +47,21 @@
                                     <action selector="zmj_btnAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="QsL-pt-aTD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYK-eE-ZVy">
-                                <rect key="frame" x="187.5" y="478.5" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="c6A-0N-OOO" firstAttribute="top" secondItem="e2r-vg-PVE" secondAttribute="bottom" constant="20" id="1Da-wW-VBG"/>
                             <constraint firstItem="e2r-vg-PVE" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="-100" id="DH3-ol-Q6y"/>
                             <constraint firstItem="e2r-vg-PVE" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="NxH-gR-NCV"/>
-                            <constraint firstItem="nAS-5J-JEy" firstAttribute="centerY" secondItem="TpU-gO-2f1" secondAttribute="centerY" constant="100" id="POq-kY-qGt"/>
-                            <constraint firstItem="jYK-eE-ZVy" firstAttribute="top" secondItem="nAS-5J-JEy" secondAttribute="bottom" constant="20" id="cjF-Qh-ygn"/>
-                            <constraint firstItem="jYK-eE-ZVy" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="kAz-cG-jVc"/>
                             <constraint firstItem="nAS-5J-JEy" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="l3j-fX-UTZ"/>
+                            <constraint firstItem="nAS-5J-JEy" firstAttribute="top" secondItem="e2r-vg-PVE" secondAttribute="bottom" constant="20" id="oK9-t6-RVF"/>
+                            <constraint firstItem="c6A-0N-OOO" firstAttribute="top" secondItem="nAS-5J-JEy" secondAttribute="bottom" constant="20" id="srV-r1-4Ec"/>
                             <constraint firstItem="c6A-0N-OOO" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="yix-zf-FqA"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="zmj_tapBtn1" destination="e2r-vg-PVE" id="25A-df-BjK"/>
                         <outlet property="zmj_tapBtn2" destination="nAS-5J-JEy" id="94N-hL-YrF"/>
-                        <outlet property="zmj_titleLabel1" destination="c6A-0N-OOO" id="kQK-7C-bho"/>
-                        <outlet property="zmj_titleLabel2" destination="jYK-eE-ZVy" id="3Vw-YY-i8U"/>
+                        <outlet property="zmj_titleLabel" destination="c6A-0N-OOO" id="7kB-Eg-bJr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

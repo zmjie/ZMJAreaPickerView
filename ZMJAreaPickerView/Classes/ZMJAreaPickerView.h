@@ -11,6 +11,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class ZMJAreaPickerView;
+
 typedef NS_ENUM(NSUInteger, ZMJAreaPickerViewStyle) {
     ZMJAreaPickerViewSheet,
     ZMJAreaPickerViewAlert,
@@ -18,7 +20,7 @@ typedef NS_ENUM(NSUInteger, ZMJAreaPickerViewStyle) {
 
 @protocol zmj_areaPickerViewDelegate <NSObject>
 
-- (void)zmj_areaPickerViewStyle:(ZMJAreaPickerViewStyle)style zmj_shengObj:(ZMJAreaListModel *)obj0 zmj_shiObj:(ZMJAreaListModel *)obj1 zmj_xianObj:(ZMJAreaListModel *)obj2;
+- (void)zmj_areaPickerView:(ZMJAreaPickerView *)areaPickerView zmj_shengObj:(ZMJAreaListModel *)obj0 zmj_shiObj:(ZMJAreaListModel *)obj1 zmj_xianObj:(ZMJAreaListModel *)obj2;
 
 @end
 

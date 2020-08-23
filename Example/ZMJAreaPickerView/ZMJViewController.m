@@ -14,8 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *zmj_tapBtn1;
 @property (weak, nonatomic) IBOutlet UIButton *zmj_tapBtn2;
-@property (weak, nonatomic) IBOutlet UILabel *zmj_titleLabel1;
-@property (weak, nonatomic) IBOutlet UILabel *zmj_titleLabel2;
+@property (weak, nonatomic) IBOutlet UILabel *zmj_titleLabel;
 
 @property (strong, nonatomic) ZMJAreaListModel *zmj_areaListModel0;
 @property (strong, nonatomic) ZMJAreaListModel *zmj_areaListModel1;
@@ -44,7 +43,7 @@
     [zmj_addressPickerView zmj_show];
 }
 
-- (void)zmj_areaPickerViewStyle:(ZMJAreaPickerViewStyle)style zmj_shengObj:(ZMJAreaListModel *)obj0 zmj_shiObj:(ZMJAreaListModel *)obj1 zmj_xianObj:(ZMJAreaListModel *)obj2 {
+- (void)zmj_areaPickerView:(ZMJAreaPickerView *)areaPickerView zmj_shengObj:(ZMJAreaListModel *)obj0 zmj_shiObj:(ZMJAreaListModel *)obj1 zmj_xianObj:(ZMJAreaListModel *)obj2 {
     
     ZMJAreaListModel *zmj_areaListModel0 = (ZMJAreaListModel *)obj0;
     ZMJAreaListModel *zmj_areaListModel1 = (ZMJAreaListModel *)obj1;
@@ -58,23 +57,7 @@
     NSLog(@"%@-%@", zmj_areaListModel1.code, zmj_areaListModel1.name);
     NSLog(@"%@-%@", zmj_areaListModel2.code, zmj_areaListModel2.name);
     
-    switch (style) {
-            
-        case ZMJAreaPickerViewSheet: {
-            
-            _zmj_titleLabel1.text = [NSString stringWithFormat:@"%@%@%@", zmj_areaListModel0.name, zmj_areaListModel1.name, zmj_areaListModel2.name];
-        }
-            break;
-            
-        case ZMJAreaPickerViewAlert: {
-            
-            _zmj_titleLabel2.text = [NSString stringWithFormat:@"%@%@%@", zmj_areaListModel0.name, zmj_areaListModel1.name, zmj_areaListModel2.name];
-        }
-            break;
-            
-        default:
-            break;
-    }
+    _zmj_titleLabel.text = [NSString stringWithFormat:@"%@%@%@", zmj_areaListModel0.name, zmj_areaListModel1.name, zmj_areaListModel2.name];
 }
 
 - (void)didReceiveMemoryWarning {
